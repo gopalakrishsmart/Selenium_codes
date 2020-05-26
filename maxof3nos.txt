@@ -1,0 +1,33 @@
+package javaExamples;
+
+import java.util.Scanner;
+
+public class MaxOf3Nos {
+
+	public static void main(String[] args) {
+		int x,y,z;
+		
+		Scanner in = new Scanner (System.in);
+		
+		System.out.println("Enter x value");
+		x = in.nextInt();
+		
+		System.out.println("Enter y value");
+		y=in.nextInt();
+		
+		System.out.println("enter z value");
+		z = in.nextInt();
+		
+		if (x > y && x > z) {
+			System.out.println("x is the biggest number");
+		}
+			else if (z > y && z > x) {
+		System.out.println("z is the biggest number");		 
+		}
+			else {
+				System.out.println("y is the biggest number");
+			}
+		
+	}
+
+}
