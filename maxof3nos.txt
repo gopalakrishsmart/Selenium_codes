@@ -31,3 +31,4 @@ public class MaxOf3Nos {
 	}
 
 }
+//end of the program
